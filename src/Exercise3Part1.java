@@ -1,4 +1,4 @@
-public class ex3 {
+public class Exercise3Part1 {
 
     public static int mapping(int n, int i, int j) {
         return i * (2 * n - i + 1) / 2 + (j - i);
