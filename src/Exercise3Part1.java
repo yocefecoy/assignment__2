@@ -2,13 +2,13 @@ public class Exercise3Part1 {
 
     public static int mapping(int n, int i, int j) {
         return i * (2 * n - i + 1) / 2 + (j - i);
-    }
+    } //i(i+1)/2+j
 
     public static void main(String[] args) {
         int[][] matrix = {
-                {10, 15, 20},
-                {15, 30, 25},
-                {20, 25, 40}
+                {1, 0, 0},
+                {4, 2, 0},
+                {6, 4, 3}
         };
         int n = matrix.length;
         int size = n * (n + 1) / 2;
